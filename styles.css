@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #3e2c1c; /* Marrón */
+  background: #f7f3ef; /* Fondo claro */
+}
+
+h1, h2 {
+  color: #523e28; /* Marrón oscuro */
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1a3747; /* Verde café */
+  color: white;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo img {
+  height: 50px; /* Ajusta la altura según sea necesario */
+  width: auto; /* Mantiene la proporción del logo */
+  display: block;
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links li a {
+  color: white;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background: url('/img/robot.jpg') no-repeat center center/cover;
+  color: rgb(246, 242, 242);
+  text-align: center;
+  padding: 25rem 1rem;
+  background-color: rgba(24, 5, 5, 0.5); /* Overlay */
+  position: relative;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #0c577f;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+.hero h1 .mas{
+  font-size: 2rem;
+  color: #ea6b11;
+  
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: #f77f00; /* Naranja */
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #d96c00;
+}
+
+/* Sections */
+section {
+  
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.about {
+  background: #e8c091; /* Marrón claro */
+}
+
+.products {
+  
+  background: #f77f00; /* Naranja */
+  color: white;
+}
+
+.contact {
+  background: #523e28; /* Marrón oscuro */
+  color: rgb(31, 6, 6);
+}
+
+/* Footer */
+.footer {
+  background: #1a3747; /* Verde café */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
